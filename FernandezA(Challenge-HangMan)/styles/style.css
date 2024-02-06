@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #5E63BA;
+}
+
+button:hover{
+    background: #ddd
+}
+
+#word-container {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#guesses-container {
+    margin-bottom: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+#guesses-container span {
+    color: red;
+}
+
+#keypad-container {
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#hangman-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#hangman-display img {
+    max-width: 100%;
+    max-height: 100%;
+}
